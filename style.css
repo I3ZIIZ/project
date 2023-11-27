@@ -1,0 +1,67 @@
+ 
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #140554;
+}
+
+/* تصميم العنوان */
+header {
+   background-color: #150756;
+   color: #ffffff;
+   text-align: center;
+   padding: 1rem;
+}
+
+/* تصميم قائمة التنقل */
+nav ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+nav li {
+   display: inline;
+   margin-right: 1rem;
+}
+
+nav a {
+   text-decoration: none;
+   color: #ffecec;
+}
+
+/* تصميم القسم الرئيسي */
+main {
+   max-width: 800px;
+   margin: 2rem auto;
+   padding: 2rem;
+   background-color: #ffffff;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(143, 137, 137, 0.2);
+}
+
+main h2 {
+   color: #000000;
+}
+
+main p {
+   color: #010101;
+}
+
+main a {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #ede5e5;
+   color:  #150756;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+/* تصميم التذييل */
+footer {
+   text-align: center;
+   background-color: #ffffff;
+   color: #ffffff;
+   padding: 1rem;
+}
